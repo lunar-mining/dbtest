@@ -11,5 +11,5 @@ rocksdb = "0.16.0"
 
 [dependencies.rusqlite]
 version = "0.25.1"
-features = ["bundled"]
+features = ["bundled", "sqlcipher"]
 
